@@ -1,0 +1,26 @@
+
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+       
+.carousal__div1{
+    position:relative;margin:0 auto;top:0px; 
+    height:380px;overflow:hidden;visibility:hidden;margin-top: 2%;
+}
+
+.carousal__div3{
+    cursor:default;position:relative;top:0px;
+    left:-135px !important;
+    width:1800px !important;
+    height:380px;overflow:hidden;
+	
+}

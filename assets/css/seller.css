@@ -1,0 +1,826 @@
+@font-face {
+    font-family: comfortaa-bold;
+    src: url(../fonts/Comfortaa-Bold.ttf),url(../fonts/Comfortaa-Bold.woff);
+  }
+  @font-face {
+    font-family: comfortaa-light;
+    src: url(../fonts/Comfortaa-Light.ttf),url(../fonts/Comfortaa-Light.woff);
+  }
+
+  @font-face {
+    font-family: comfortaa-regular;
+    src: url(../fonts/Comfortaa-Regular.ttf),url(../fonts/Comfortaa-Regular.woff);
+  }
+  @font-face{
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf),url(../fonts/Roboto-Regular.woff);
+  }
+  @font-face{
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf),url(../fonts/Roboto-Medium.woff);
+  }
+ 
+.clear{
+  clear: both;
+}
+
+/* header style starts here*/
+ .sellerBorBot{
+  border-bottom: 2px solid #0cc2b9;
+  padding-bottom: 10px;
+}
+#sellerCol{
+  color: #00bfb2;
+}
+/* header style ends here  */
+
+/* // banner style starts here */ 
+.bannerimage{
+  float: right;
+  padding-top: 2%;
+  margin-right: 4%;
+}
+.bannercontent{
+float: left;
+    width: 25%;
+    padding-top: 18%;
+    margin-left: 7%;
+}
+.bannercontent1{
+    font-size: 27px;
+    width: 90%;
+    padding-top: 20%;
+    margin-left: 8%;
+    font-family: comfortaa-regular;
+    line-height: 40px;
+    color: #13403e;
+    text-shadow: 1px 1px 1px #13403e;
+}
+.bannercontent2{
+  padding-top: 25%;
+    margin-left: 8%;
+    font-size: 13px;  
+    font-family: roboto-regular;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #13403e;
+    text-shadow: 0px 0px 0px #13403e;
+}
+.bannercontent3{
+  font-size: 13px;
+    padding-top: 5%;
+    margin-left: 8%;
+    border-bottom: 2px solid #00bfb2;
+    width: 52%;
+    padding-bottom: 10px;
+    font-family: roboto-regular;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #13403e;
+    text-shadow: 0px 0px 0px #13403e;
+}
+.bannercontent3:hover{
+  color: #63807d; 
+  cursor: pointer;
+}
+/* // banner style ends here */ 
+/* // prepartion section starts here */ 
+.prepartion{
+  width: 100%;
+    background-color: #00bfb2;
+    height: auto;
+    clip-path: polygon(0 0, 100% 11%, 100% 88%, 0% 100%);
+    margin-top: -4%;
+    overflow: auto;
+    display: inline-block;
+}
+.prepartionimage{
+  padding-top: 8%;
+    margin-left: 4%;
+    float: left;
+}
+.prepartionheading{
+font-size: 27px;
+    font-family: comfortaa-Bold;
+    margin-bottom: 8%;
+    color: #ffffff;   
+}
+.prepartionpara{
+ float: right;
+    width: 37%;
+    padding-top: 14%;
+    color: #fff;
+    margin-right: 19%;
+}
+.prepartioncontent{
+  font-size: 16px;
+    font-family: Comfortaa-light;
+    line-height: 1.5;
+    color: #fff;
+
+    }
+/* // prepartion section ends here */ 
+    /* // presentation section starts here */ 
+.presentation{
+  background-color: #f0f0f0;
+    overflow: auto;
+    margin-top: -6%;
+    clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 90%);
+}
+.presentationpara{
+    float: left;
+    padding-top: 11%;
+    margin-left: 17%;
+    width: 37%;
+    text-shadow: 0px 0px 1px #13403e;
+}
+.presentationheading{
+  font-size: 27px;
+    font-family: Comfortaa-Bold;
+    margin-bottom: 8%;
+    color: #13403e;
+}
+.presentationcontent{
+  font-family: Comfortaa-regular;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #13403e; 
+}
+.presentationimage{
+  float: right;
+   padding-top: 8%;
+    margin-right: 4%;
+}
+   /* // presentation section ends here */ 
+/* // pricing section starts here */ 
+.pricing{
+  width: 100%;
+    background-color: #fff;
+    height: auto;
+    clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+    margin-top: -5%;
+    overflow: auto;
+}
+.pricingimage{
+  padding-top: 8%;
+    margin-left: 4%;
+    float: left;
+}
+.pricingheading{
+font-size: 27px;
+    font-family: comfortaa-Bold;
+    margin-bottom: 8%;
+    color: #13403e;  
+}
+.pricingpara{
+ float: right;
+    width: 35%;
+    padding-top: 12%;
+    color: #13403e;
+    margin-right: 21%;
+    text-shadow: 0px 0px 1px #13403e;
+}
+.pricingcontent{
+ font-size: 16px;
+  font-family: Comfortaa-regular;
+    line-height: 1.5;
+      color: #13403e;  
+
+    }
+    /* // pricing section ends here */ 
+
+/* // promotion section starts here */ 
+.promotion{
+  background-color: #f0f0f0;
+    overflow: auto;
+    margin-top: -6%;
+    clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 87%);
+}
+.promotionpara{
+    float: left;
+    padding-top: 11%;
+    margin-left: 17%;
+    width: 37%;
+    color: #13403e;
+    text-shadow: 0px 0px 1px #13403e;
+
+}
+.promotionheading{
+    font-size: 27px;
+    font-family: Comfortaa-Bold;
+    margin-bottom: 8%;
+    color: #13403e;
+}
+.promotioncontent{
+  font-family: Comfortaa-regular;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #13403e; 
+}
+.promotionimage{
+  float: right;
+   padding-top: 5%;
+    margin-right: 4%;
+}
+/* // promotion section ends here */ 
+
+/* // negotation section starts here */ 
+.negotiation{
+  width: 100%;
+    background-color: #00bfb2;
+    height: auto;
+    clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+    margin-top: -7%;
+    overflow: auto;
+    padding-bottom: 25%;
+}
+.negotiationimage{
+    padding-top: 8%;
+    margin-left: 7%;
+    float: left;
+}
+.negotiationheading{
+font-size: 27px;
+    font-family: comfortaa-Bold;
+    margin-bottom: 8%;
+    color: #fff;  
+}
+.negotiationpara{
+    float: right;
+    width: 35%;
+    padding-top: 12%;
+    color: #fff;
+    margin-right: 20%;
+}
+.negotiationcontent{
+  font-size: 16px;
+  font-family: Comfortaa-regular;
+    line-height: 1.5;
+      color: #fff; 
+    }
+/* // negotation section ends here */ 
+
+/*Find out home value section style starts here */
+.findOut{
+    width: 92%; 
+    margin-top: -25.5%;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ffffff; 
+    left: 4%;
+}
+
+.findOut__content{ 
+  padding: 6%;
+}
+
+.findOut__heading{
+  font-size: 65px;
+    color: #13403e;
+    font-family: comfortaa-light;
+  text-shadow: 1px 1px 1px #13403e;
+}
+
+.findOut__para{
+  font-family: Comfortaa-regular;
+  font-size: 20px;
+  color: #13403e;
+  padding: 2% 0 3% 0;
+  text-shadow: 0px 0px 1px #13403e; 
+}
+
+.findOut__input{ 
+  outline: none;
+  width: 100%;
+  border-bottom: 2px solid #00bfb2;
+  padding-bottom: 12px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 3%;
+  font-family: roboto-medium;
+}
+
+.findOut__button{
+  font-family: roboto-medium;
+  background-color: #0cc2b9;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1.2% 7%;
+  letter-spacing: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 2%;
+}
+
+.findOut__button:hover{
+  background-color: #ffffff; 
+  border: 1px solid #0cc2b9;
+  color: #0cc2b9;
+  cursor: pointer;
+}
+.findoutForm1__errMsg{
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+.findoutForm1__successmsg{
+  color: green;
+    font-family: Roboto-Medium;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*//Find out home value section style ends here */
+
+/* emptyClip section starts here */
+.emptyClip{
+  clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0 86%);
+  background-color: #f0f0f0;
+  height: 500px;
+  margin-top: -10%;
+  padding-bottom: 6%;
+}
+/* //emptyClip section ends here */ 
+
+/* // form section starts here */ 
+.sellerForm{
+  background-color: #13403e;
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+    padding: 8%;
+    margin-top: -6%;
+}
+.sellerForm__heading{
+  color: #fff;
+  font-size: 65px;
+  padding-bottom: 2%;
+  font-family: comfortaa-light;
+  padding-top:5%;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+/* // form section ends here */ 
+
+/* media query for the screen 1200px */
+@media (max-width: 1200px){
+  .bannerimage { 
+    padding-top: 3%; 
+    width: 55%;
+}
+.bannercontent1 {
+  font-size: 25px;
+  width: 93%;  
+  line-height: 35px; 
+}
+.bannercontent3 {
+  font-size: 13px;
+  padding-top: 2%; 
+  width: 58%; 
+}
+.prepartionimage { 
+  width: 32%;
+}
+.prepartionpara { 
+  width: 42%;
+  padding-top: 10%; 
+  margin-right: 17%;
+}
+.presentationimage { 
+  width: 32%;
+}
+.presentationpara { 
+  width: 41%; 
+}
+.pricingimage { 
+  width: 32%;
+}
+.pricingpara { 
+  width: 40%; 
+  margin-right: 15%; 
+}
+.promotion { 
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 87%); 
+}
+.promotionimage { 
+  width: 32%;
+}
+.promotionpara { 
+  margin-left: 15%;
+  width: 42%; 
+}
+.negotiation { 
+  clip-path: polygon(0 0, 100% 10%, 100% 85%, 0% 100%); 
+}
+.negotiationimage { 
+  margin-left: 7%; 
+  width: 32%;
+}
+.negotiationpara { 
+  width: 39%; 
+  margin-right: 15%;
+}
+.findOut {
+  width: 93%; 
+  left: 4%;
+}
+.findOut__heading {
+  font-size: 60px;  
+}
+.findOut__para { 
+  font-size: 18px; 
+}
+.emptyClip { 
+  padding-bottom: 3%;
+}
+.sellerForm {  
+  padding: 5% 10% 10% 10%;
+  margin-top: -7%;
+}
+.sellerForm__heading { 
+  font-size: 60px; 
+}
+}
+/* //media query for the screen 1200px */
+
+/* media query for the screen  992px */
+@media (max-width: 992px) {
+.bannercontent1{
+  font-size: 22px;
+  width: 99%;
+  padding-top: 5%;
+}
+.bannercontent3 {
+    width: 70%;
+}
+.prepartionheading, .presentationheading, .pricingheading, .promotionheading, .negotiationheading{
+  font-size: 24px;
+}
+.prepartioncontent, .presentationcontent, .pricingcontent, .promotioncontent, .negotiationcontent{
+  font-size: 13px;
+}
+.findOut__heading {
+    font-size: 55px;
+}
+.sellerForm__heading {
+    font-size: 50px;
+}
+
+}
+/* media query for the screen  992px */
+
+
+/* tab view media queries starts here */
+@media (max-width: 768px){
+  /* banner section */
+  .bannercontent { 
+    width: 35%;
+    padding-top: 10%;
+    margin-left: 7%;
+}
+.bannercontent1 {
+  font-size: 18px;
+  width: 87%;
+  padding-top: 1%;
+  margin-left: 8%; 
+  line-height: 30px; 
+}
+.bannercontent2 {
+  padding-top: 20%;
+  margin-left: 8%;
+  font-size: 10px;  
+  line-height: 20px; 
+}
+.bannercontent3 {
+  font-size: 10px;
+  padding-top: 3%;
+  margin-left: 8%; 
+  width: 55%;
+  padding-bottom: 5px; 
+  letter-spacing: 2px; 
+}
+.bannerimage { 
+  padding-top: 2%;
+  height: 330px;
+  width: auto;
+  margin-right: 5%;
+}
+  /* //banner section */
+
+  .prepartion{
+
+  }
+  .prepartionimage{
+    width: 28%;
+  }
+  .prepartionpara{
+        padding-top: 9%;
+      margin-right: 24%;
+  }
+  .prepartionheading {
+      font-size: 16px;
+      }
+    .prepartioncontent {
+      font-size: 10px;
+    }
+  
+  .presentation{
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 85%);
+  padding-bottom: 5%;
+  }
+  .presentationimage{
+    width: 28%;
+  }
+  .presentationpara{
+        padding-top: 9%;
+      margin-left: 19%;
+  }
+  .presentationheading {
+      font-size: 16px;
+      }
+    .presentationcontent {
+      font-size: 10px;
+    }
+    .pricing{
+  clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+  margin-top: -6%;
+  }
+  .pricingimage{
+    width: 28%;
+  }
+  .pricingpara{
+        padding-top: 9%;
+      margin-right: 24%;
+  }
+  .pricingheading {
+      font-size: 16px;
+      }
+    .pricingcontent {
+      font-size: 10px;
+    }
+  
+  .promotion{
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 85%);
+  padding-bottom: 5%;
+  }
+  .promotionimage{
+    width: 28%;
+  }
+  .promotionpara{
+        padding-top: 9%;
+      margin-left: 19%;
+  }
+  .promotionheading {
+      font-size: 16px;
+      }
+    .promotioncontent {
+      font-size: 10px;
+    }
+    .negotiation{
+  clip-path: polygon(0 0, 100% 9.5%, 100% 85%, 0% 100%);
+  margin-top: -6%;
+  }
+  .negotiationimage{
+    width: 28%;
+  }
+  .negotiationpara{
+        padding-top: 9%;
+      margin-right: 24%;
+  }
+  .negotiationheading {
+      font-size: 16px;
+      }
+    .negotiationcontent {
+      font-size: 10px;
+    }
+    .findOut__heading {
+      font-size: 35px;
+  }
+  .findOut__para {
+      font-size: 15px;
+    }
+    .findOut__input{
+      font-size: 10px;
+    }
+    .findOut__button{
+      font-size: 9px;
+    }
+    .emptyClip {
+      height: 370px;
+    }
+    /* form section */
+.sellerForm { 
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%); 
+  margin-top: -10%;
+}
+.sellerForm__heading { 
+  font-size: 40px; 
+}
+/* //form section */
+}
+
+/* //tab view media queries starts here */
+
+
+
+/* mobile view media queries starts here */
+@media (max-width: 576px){
+  /* banner section */
+  .bannercontent { 
+    padding-top: 10%; 
+  }
+  .bannercontent1 {
+    font-size: 12px;
+    width: 75%;
+    padding-top: 20%;
+    line-height: 20px;
+    text-shadow: 0px 0px 1px #13403e;
+  }
+  .bannercontent2 {
+    padding-top: 20%;
+    font-size: 9px;
+    letter-spacing: 2px; 
+  }
+  .bannercontent3 {
+    font-size: 9px;
+    width: 66%;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+  }
+  .bannerimage { 
+    padding-top: 12%;
+    height: 250px;
+    width: auto;
+    margin-right: 8%;
+  }
+  /* //banner section */
+  
+  /* preparation section */
+  .prepartion { 
+    clip-path: polygon(0 0, 100% 14%, 100% 92%, 0% 100%);
+    margin-top: -5%;
+    padding-bottom: 1%;
+  }
+  .prepartionimage {
+    padding-top: 12%;
+    margin-left: 5%;  
+    height: 205px;
+    width: auto; 
+  }
+  .prepartionpara { 
+    width: 54%;
+    padding-top: 12%; 
+    margin-right: 5%;
+  }
+  .prepartionheading {
+    font-size: 16px; 
+    margin-bottom: 5%; 
+  }
+  .prepartioncontent {
+    font-size: 10px;  
+  }
+  /* //preparation section */
+  
+  /* presentation section */
+  .presentation { 
+    margin-top: -5%;
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 90%);
+    padding-bottom: 0%;
+  }
+  .presentationpara {  
+    margin-left: 8%;
+    width: 53%;
+  }
+  .presentationheading {
+    font-size: 16px; 
+    margin-bottom: 5%; 
+  }
+  .presentationcontent {  
+    font-size: 10px; 
+  }
+  .presentationimage { 
+    padding-top: 15%;
+    margin-right: 4%;
+    height: 205px;
+    width: auto;
+  }
+  /* //presentation section */
+  
+  /* pricing section */
+  .pricing { 
+    clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+    margin-top: -5%; 
+    padding-bottom: 1%;
+  }
+  .pricingimage {
+    padding-top: 12%;
+    margin-left: 5%; 
+    height: 205px;
+    width: auto;
+  }
+  .pricingpara { 
+    width: 53%;
+    padding-top: 12%; 
+    margin-right: 7%;
+  }
+  .pricingheading {
+    font-size: 16px; 
+    margin-bottom: 5%; 
+  }
+  .pricingcontent {
+    font-size: 10px;  
+  }
+  /* //pricing section */
+  
+  /* promotion section */
+  .promotion { 
+    margin-top: -6%;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 87%);
+    padding-bottom: 6%;
+  }
+  .promotionpara { 
+    padding-top: 10%; 
+    width: 55%;
+    margin-left: 10%; 
+  }
+  .promotionheading {
+    font-size: 16px; 
+    margin-bottom: 5%; 
+  }
+  .promotioncontent {  
+    font-size: 10px; 
+  }
+  .promotionimage { 
+    padding-top: 15%;
+    margin-right: 4%;
+    height: 205px;
+    width: auto;
+  }
+  /* //promotion section */
+  
+  /* negotiation section */
+  .negotiation { 
+    clip-path: polygon(0 0, 100% 8%, 100% 85%, 0% 100%);
+    margin-top: -12%; 
+    padding-bottom: 33%;
+  }
+  .negotiationimage {
+    padding-top: 15%;
+    margin-left: 4%; 
+    height: 180px;
+    width: auto;
+  }
+  .negotiationpara { 
+    width: 45%;
+    padding-top: 12%; 
+    margin-right: 10%;
+  }
+  .negotiationheading {
+    font-size: 16px; 
+    margin-bottom: 5%; 
+  }
+  .negotiationcontent {
+    font-size: 10px;  
+  }
+  /* //negotiation section */
+  
+  /* find out section */
+  .findOut { 
+    margin-top: -33%; 
+  }
+  .findOut__heading {
+    font-size: 30px; 
+  }
+  .findOut__para { 
+    font-size: 13px; 
+  }
+  .findOut__button{
+    margin-top: 5%;
+    width: 100%;
+    padding: 3% 8%;
+  }
+  /* //find out section */
+  
+  /* empty clip */
+  .emptyClip {
+    clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0 86%); 
+    height: 365px;
+    margin-top: -13%;
+    padding-bottom: 2%;
+  }
+  /* //empty clip */
+  
+  /* form section */
+  .sellerForm { 
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%); 
+    margin-top: -10%;
+  }
+  .sellerForm__heading { 
+    font-size: 30px; 
+    margin-top: 5%;
+  }
+  /* //form section */
+  }
+  /* //mobile view media queries starts here */

@@ -1,0 +1,1073 @@
+/* doors advisors css */
+@font-face{
+    font-family:Roboto-Medium ;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf),url(../fonts/Roboto-Regular.woff);
+  }
+@font-face{
+    font-family:Comfortaa-Light ;
+    src: url(../fonts/Comfortaa-Light.ttf);
+}
+
+@font-face {
+    font-family: comfortaa-regular;
+    src: url(../fonts/Comfortaa-Regular.ttf),url(../fonts/Comfortaa-Regular.woff);
+  }
+  
+@font-face{
+    font-family:Comfortaa-Bold;
+    src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+.clear{
+    clear: both;
+}
+
+/* header style starts here*/
+.buyerBorBot{
+    border-bottom: 2px solid #0cc2b9;
+    padding-bottom: 10px;
+    color: #00bfb2;
+  }
+  #buyerCol{
+    color: #00bfb2;
+  }
+  /* header style ends here  */
+ 
+/* // banner style starts here */ 
+.bannerimage{
+    float: right;
+    padding-top: 5%;
+  }
+.bannercontent{
+    float: left;
+    width: 25%;
+    padding-top: 18%;
+  }
+.bannercontent1{
+    font-size: 30px;
+    width: 120%;
+    padding-top: 10%;
+    margin-left: 34%;
+    font-family: comfortaa-regular;
+    line-height: 40px;
+    color: #13403e;
+    text-shadow: 1px 1px 1px #13403e;
+}
+  .bannercontent2{
+      padding-top: 25%;
+      margin-left: 34%;
+      font-size: 11px;  
+      font-family: Comfortaa-bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #13403e;
+      text-shadow: 0px 0px 0px #13403e;
+  }
+  .bannercontent3{
+      font-size: 11px;
+      padding-top: 5%;
+      margin-left: 34%;
+      border-bottom: 2px solid #00bfb2;
+      width: 50%;
+      padding-bottom: 5px;
+      font-family: Comfortaa-bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #13403e;
+      text-shadow: 0px 0px 0px #13403e;
+  }
+  .bannercontent3:hover{
+    color: #00bfb2;
+    cursor: pointer;
+  }
+  /* // banner style ends here */
+  /* // conduct section starts here */ 
+  .conduct{
+      width: 100%;
+      background-color: #00bfb2;
+      height: auto;
+      clip-path: polygon(0 0, 100% 13%, 100% 80%, 0% 100%);
+      margin-top: -5%;
+      overflow: auto;
+      padding-bottom: 12%;
+      display: inline-block;
+  }
+  .conductimage{
+      padding-top: 12%;
+      margin-left: 12%;
+      float: left;
+      width: 22%;
+  }
+  .conductheading{
+    font-size: 27px;
+    font-family: comfortaa-bold;
+      margin-bottom: 8%;
+  }
+  .conductpara{
+    float: right;
+    width: 38%;
+    padding-top: 12%;
+    color: #fff;
+    margin-right: 20%;
+  }
+  .conductcontent{
+    font-size: 16px;
+    font-family: comfortaa-light;
+    line-height: 23px;
+      }
+  /* // conduct section ends here */ 
+   /* //  finances section starts here */ 
+  .finances{
+      background-color: #f0f0f0;
+      overflow: auto;
+      margin-top: -9%;
+      clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 90%);
+      padding-bottom: 10%
+  }
+  .financespara{
+      float: left;
+      padding-top: 15%;
+      margin-left: 20%;
+      width: 37%;
+      color: #13403e;
+  }
+  .financesheading{
+      font-size: 27px;
+      font-family: comfortaa-bold;
+      margin-bottom: 8%;
+  }
+  .financescontent{
+      font-size: 16px;
+      font-family: comfortaa-bold;
+      line-height: 23px;
+      color: #13403e;
+  }
+  .financesimage{
+      float: right;
+      padding-top:15%;
+      margin-right: 10%;
+  }
+     /* //finances section ends here */ 
+  
+     /* // home  section starts here */ 
+  .home {
+      width: 100%;
+      background-color: #fff;
+      height: auto;
+      clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+      margin-top: -5%;
+      overflow: auto;
+      padding-bottom: 15%;
+  }
+  .homeimage{
+      padding-top: 8%;
+      margin-left: 14%;
+      float: left;
+  }
+  .homeheading{
+      font-size: 27px;
+      font-family: comfortaa-bold;
+      margin-bottom: 8%;
+  }
+  .homepara{
+      float: right;
+      width: 35%;
+      padding-top: 10%;
+      color: #13403e;
+      margin-right: 21%;
+  }
+  .homecontent{
+      font-size: 16px;
+      font-family: comfortaa-bold;
+      line-height: 23px
+      }
+      /* // home  section ends here */ 
+  /* //  negotiate section starts here */ 
+  .negotiate{
+      background-color: #f0f0f0;
+      overflow: auto;
+      margin-top: -8%;
+      clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 90%);
+      padding-bottom: 12%
+  }
+  .negotiatepara{
+      float: left;
+      padding-top: 14%;
+      margin-left: 20%;
+      width: 37%;
+      color: #13403e;
+  }
+  .negotiateheading{
+      font-size: 27px;
+      font-family: comfortaa-bold;
+      margin-bottom: 8%;
+  }
+  .negotiatecontent{
+      font-size: 16px;
+      font-family: comfortaa-bold;
+      line-height: 23px;
+  }
+  .negotiateimage{
+      float: right;
+      padding-top:17%;
+      margin-right: 10%;
+  }
+     /* //negotiate section ends here */ 
+  /* // inspection section starts here */ 
+  .inspection {
+      width: 100%;
+      background-color: #fff;
+      height: auto;
+      clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+      margin-top: -5%;
+      overflow: auto;
+      padding-bottom: 12%;
+  }
+  .inspectionimage{
+      padding-top: 8%;
+      margin-left: 14%;
+      float: left;
+  }
+  .inspectionheading{
+      font-size: 27px;
+      font-family: comfortaa-bold;
+      margin-bottom: 8%;
+  }
+  .inspectionpara{
+      float: right;
+      width: 39%;
+      padding-top: 8%;
+      color: #13403e;
+      margin-right: 15%;
+  }
+  .inspectioncontent{
+      font-size: 16px;
+      font-family: comfortaa-bold;
+      line-height: 23px;
+      }
+      /* // inspection  section ends here */ 
+  /* //  final section starts here */ 
+  .final{
+      background-color: #f0f0f0;
+      overflow: auto;
+      margin-top: -8%;
+      clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 90%);
+      padding-bottom: 12%
+  }
+  .finalpara{
+      float: left;
+      padding-top: 15%;
+      margin-left: 20%;
+      width: 40%;
+      color: #13403e;
+  }
+  .finalheading{
+      font-size: 27px;
+      font-family: comfortaa-bold;
+      margin-bottom: 8%;
+  }
+  .finalcontent{
+    font-size: 16px;
+      font-family: comfortaa-bold;
+      line-height: 23px;
+  }
+  .finalimage{
+      float: right;
+      padding-top:15%;
+      margin-right: 10%;
+  }
+     /* //final section ends here */ 
+  
+  /* // congratulate section starts here */ 
+  .congratulate {
+      width: 100%;
+      background-color: #00bfb2;
+      height: auto;
+      clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%);
+      margin-top: -7%;
+      overflow: auto;
+      padding-bottom: 25%;
+  }
+  .congratulateimage{
+      padding-top: 8%;
+      margin-left: 10%;
+      float: left;
+  }
+  .congratulateheading{
+      font-size: 27px;
+      font-family: comfortaa-bold;
+      margin-bottom: 8%;
+      width: 90%;
+      line-height: 40px;
+      letter-spacing: 1px;
+  }
+  .congratulatepara{
+      float: right;
+      width: 38%;
+      padding-top: 8%;
+      color: #fff;
+      margin-right: 20%;
+  }
+  .congratulatecontent{
+      font-size: 16px;
+      font-family: comfortaa-regular;
+      line-height: 23px;
+      }
+      /* // congratulate  section ends here */ 
+
+/*Have questions section style starts here */
+.findOut{
+    width: 90%; 
+    margin-top: -20%;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ffffff; 
+    left: 5%; 
+  }
+  
+  .findOut__content{ 
+    padding: 5%;
+  }
+  
+  .findOut__heading{
+    font-family: comfortaa-light;
+    font-size: 70px; 
+    color: #13403e;
+    text-shadow: 1px 1px 1px #13403e;
+  }
+  
+  .findOut__para{
+    font-family: Comfortaa-regular;
+    font-size: 23px;
+    padding: 2% 0 4% 0;
+    color: #13403e;
+    text-shadow: 0px 0px 1px #13403e;
+  }
+  
+  .findOut__input{ 
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid #00bfb2;
+    padding-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 2%;
+    font-family: roboto-medium;
+    color: #505050;
+  }
+
+  .findOut__input::placeholder, .findOut__selectTime{
+    color: #505050;
+    font-size: 12px;
+    font-family: roboto-medium;
+    outline: none;
+  }
+
+  .findOut__callme, .findOut__at{
+    margin-right: 25px;
+    font-size: 12px;
+    font-family: roboto-medium;
+    color: #505050; 
+  }
+
+  .findOut__at{
+    margin-left: 10px;
+  }
+  .findOut__colon{
+    color: #0cc2b9;
+    font-size: 15px;
+  }
+  .findOut__select{ 
+    outline: none;
+    color: #00bfb2;
+    font-family: roboto-medium;  
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+  }
+
+  /* .findOut__downArrow{
+    margin: 0 5px 0 10px;
+  } */
+  
+  .findOut__button{
+    font-family: roboto-medium;
+    background-color: #0cc2b9;
+    border: 1px solid #0cc2b9;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1.2% 6%;
+    letter-spacing: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 2%;
+  }
+  
+  .findOut__button:hover{
+    background-color: #ffffff; 
+    border: 1px solid #0cc2b9;
+    color: #0cc2b9;
+    cursor: pointer;
+  }
+
+  .date{
+    outline: none;
+    border:none;
+    background: url('../images/select-down-arrow.png') no-repeat;
+    background-position: 105px 5px;
+    
+  }
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0;
+}
+
+  .findoutForm__errMsg{
+    font-family: Roboto-Medium ;
+    font-size: 16px;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.findoutForm__sucessmsg{
+    color: green;
+     font-family: Roboto-Medium ;
+    font-size: 18px;
+     padding-top: 5px;
+    padding-bottom: 5px;
+}
+  /*//Have questions section style ends here */
+
+
+  /* emptyClip section starts here */
+.emptyClip{
+    clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0 86%);
+    background-color: #f0f0f0;
+    height: 500px;
+    margin-top: -10%;
+  }
+  /* //emptyClip section ends here */ 
+
+  /* Our listing style starts here */
+  #buyerOurListHead{
+    margin-left: 10%;
+    font-size: 70px;
+    font-family: Comfortaa-regular;
+    border-bottom: 2px solid #00bfb2;
+    padding-bottom: 5px;
+    color: #13403e;
+    display: inline;
+  }
+  .buyerOurListings{
+    padding-top: 5%;
+  }
+  
+/* //Our listing style ends here */
+
+/* pagination */
+#pagination{
+  padding-top: 5%;
+  width: 39%;
+  margin: 0 auto;
+}
+#pagination a, #pagination i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 37px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#pagination a {
+    font-size: 26px;
+  cursor: pointer;
+      color: #13403e;
+}
+#pagination i {
+  margin: 0 3px 0 3px;
+    font-size: 30px;
+}
+#pagination a.current {
+  border: 1px solid #25cac1;
+  background-color: #fff;
+  border-radius: 50%;
+}
+/* //pagination */
+
+/* media query for the screen 1200px */
+@media (max-width: 1200px){
+  .bannercontent1 {
+    font-size: 25px; 
+    line-height: 35px; 
+}
+  .bannerimage { 
+    width: 55%;
+    margin-right: 1%;
+  }
+  .bannercontent3 { 
+    width: 56%; 
+}
+.conduct { 
+  clip-path: polygon(0 0, 100% 12%, 100% 82%, 0% 100%); 
+  padding: 1% 0 15% 0;
+}
+.conductpara { 
+  margin-right: 16%;
+  width: 42%;
+}
+.conductimage {
+  padding-top: 13%; 
+  width: 23%;
+}
+.financesimage { 
+  width: 28%;
+  margin-right: 5%;
+}
+.financespara { 
+  width: 42%; 
+}
+.homeimage {
+  padding-top: 11%; 
+  width: 21%;
+}
+.homepara { 
+  width: 40%; 
+  margin-right: 17%;
+}
+.negotiateimage { 
+  width: 24%;
+}
+.negotiatepara { 
+  margin-left: 18%;
+  width: 42%; 
+}
+.inspectionimage {
+  padding-top: 12%; 
+  width: 23%;
+}
+.inspectionpara { 
+  width: 43%;
+  padding-top: 10%; 
+  margin-right: 12%;
+}
+.finalimage { 
+  width: 25%;
+}
+.finalpara { 
+  width: 44%; 
+  margin-left: 15%;
+}
+.congratulateimage {
+  padding-top: 16%; 
+  width: 25%;
+}
+.congratulatepara { 
+  width: 42%; 
+  margin-right: 15%;
+  padding-top: 12%;
+}
+.findOut__heading { 
+  font-size: 60px; 
+}
+.findOut__para { 
+  font-size: 20px; 
+}
+.findOut__button { 
+  padding: 1.2% 4%; 
+}
+#buyerOurListHead { 
+  font-size: 60px; 
+}
+}
+/* //media query for the screen 1200px */
+
+
+/* media query for the screen  992px */
+@media (max-width: 992px) {
+.bannercontent1{
+  width: 106%;
+    font-size: 21px;
+}
+.bannercontent3 {
+  padding-top: 6%;
+    width: 68%;
+    padding-bottom: 10px;
+}
+.conductheading, .financesheading, .homeheading, .negotiateheading, .inspectionheading, .finalheading, .congratulateheading{
+  font-size: 24px;
+}
+.congratulateheading{
+width: 81%;
+}
+.conductcontent, .financescontent, .homecontent, .negotiatecontent, .inspectioncontent, .finalcontent, .congratulatecontent {
+  font-size: 13px;
+}
+.conduct{
+  clip-path: polygon(0 0, 100% 10%, 100% 82%, 0% 100%);
+}
+.finances{
+ margin-top: -11%;
+} 
+.findOut__heading {
+    font-size: 50px;
+}
+.findOut__para {
+    font-size: 17px;
+}
+#buyerOurListHead {
+    font-size: 50px;
+}
+
+
+
+
+
+
+ } 
+/* media query for the screen  992px */
+
+/* tab view media queries starts here */
+@media (max-width: 768px){
+  /* banner section */
+  .bannercontent { 
+    width: 44%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.bannercontent1 {
+  font-size: 18px;
+  width: 80%;
+  padding-top: 20%;
+  margin-left: 20%; 
+  line-height: 30px;
+}
+.bannercontent2 {
+  padding-top: 5%;
+  margin-left: 20%;
+  font-size: 10px; 
+  letter-spacing: 2px; 
+}
+.bannercontent3 {
+  font-size: 10px;
+  padding-top: 5%;
+  margin-left: 20%; 
+  width: 47%;
+  padding-bottom: 5px;  
+}
+.bannerimage { 
+  padding-top: 5%; 
+  height: 330px;
+  width: auto;
+  margin-right: 3%;
+}
+  /* //banner section */
+
+  .conduct{
+    margin-top: -5%;
+    clip-path: polygon(0 0, 100% 11%, 100% 82%, 0% 100%);
+  }
+  .conductimage {
+  width: 28%;
+  }
+  .conductheading{
+    font-size: 16px;
+  }
+  .conductcontent{
+    font-size: 10px;
+  }
+  .conductpara { 
+    width: 32%; 
+}
+  .finances{
+        margin-top: -9%;
+      clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 85%);
+  }
+  .financesimage {
+  width: 28%;
+  }
+  .financesheading{
+    font-size: 16px;
+  }
+  .financescontent{
+    font-size: 10px;
+  }
+  .financespara { 
+    padding-top: 12%; 
+}
+  .home{
+    clip-path: polygon(0 0, 100% 15%, 100% 79%, 0% 100%);
+      margin-top: -6%;
+  }
+  .homeimage {
+  width: 28%;
+  }
+  .homeheading{
+    font-size: 16px;
+  }
+  .homecontent{
+    font-size: 10px;
+  }
+  .negotiate{
+        margin-top: -9%;
+      clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 85%);
+  }
+  .negotiateimage {
+  width: 28%;
+  }
+  .negotiateheading{
+    font-size: 16px;
+  }
+  .negotiatecontent{
+    font-size: 10px;
+  }
+  .negotiatepara { 
+    width: 32%; 
+}
+  .inspection{
+    clip-path: polygon(0 0, 100% 15%, 100% 79%, 0% 100%);
+      margin-top: -7%;
+  }
+  .inspectionimage {
+  width: 28%;
+  }
+  .inspectionheading{
+    font-size: 16px;
+  }
+  .inspectioncontent{
+    font-size: 10px;
+  }
+  .inspectionpara { 
+    width: 34%; 
+    margin-right: 20%;
+}
+  .final{
+        margin-top: -9%;
+      clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 85%);
+  }
+  .finalimage {
+  width: 28%;
+  padding-top: 10%;
+  }
+  .finalheading{
+    font-size: 16px;
+  }
+  .finalcontent{
+    font-size: 10px;
+  }
+  .finalpara {  
+    width: 32%; 
+}
+  .congratulate{
+    clip-path: polygon(0 0, 100% 13%, 100% 80%, 0% 100%);
+      margin-top: -8%;
+  }
+  .congratulateimage {
+  width: 28%;
+  }
+  .congratulateheading{
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 3%
+  }
+  .congratulatecontent{
+    font-size: 10px;
+  }
+  .congratulatepara { 
+    width: 50%; 
+    margin-right: 5%;
+}
+  .emptyClip {
+      clip-path: polygon(0 17%, 100% 0%, 100% 100%, 0 86%);
+      margin-top: -11%;
+      height: 375px;
+  }
+  .findOut__heading {
+      font-size: 35px;
+  }
+  .findOut__para {
+      font-size: 14px;
+  }
+  .findOut__select { 
+    font-size: 10px; 
+}
+   .ourListings1{
+    margin-top: 3%;
+   } 
+   .ourListings__heading1{
+   font-size:35px;
+  }
+   .ourListings__ImgGalleryRow1Img11{
+  height: 166px;
+   }
+   .ourListings__ImgGalleryRow1ContHead1 {
+      font-size: 12px;
+  }
+  .ourListings__ImgGalleryRow1ContPara1 {
+      font-size: 10px;
+  }
+  .buyer__pagination {
+      width: 61%;
+    }
+}
+/* //tab view media queries ends here */
+
+
+/* mobile view media queries starts here */
+@media (max-width: 576px){
+  /* banner section */
+  .bannerimage { 
+    height: 250px;
+    width: auto;
+    margin-right: 5%;
+}
+.bannercontent1 {
+  font-size: 12px;
+  width: 68%;
+  padding-top: 5%; 
+  line-height: 20px;
+  text-shadow: 0px 0px 1px #13403e;
+}
+.bannercontent2 {
+  padding-top: 15%; 
+  font-size: 8px;   
+}
+.bannercontent3 {
+  font-size: 8px;
+  padding-top: 6%;  
+  width: 45%;  
+  letter-spacing: 1px; 
+}
+  /* //banner section */
+
+  /* conduct section */
+  .conduct { 
+    clip-path: polygon(0 0, 100% 12%, 100% 81%, 0% 100%);
+    margin-top: -7%; 
+}
+.conductimage {
+  padding-top: 16%;
+  margin-left: 8%; 
+  width: 160px;
+  height: auto;
+}
+.conductpara { 
+  width: 55%;
+  padding-top: 15%; 
+  margin-right: 5%;
+  padding-bottom: 5%;
+}
+.conductheading {
+  font-size: 16px;  
+  margin-bottom: 4%;
+}
+.conductcontent {
+  font-size: 10px; 
+  line-height: 16px;
+}
+  /* //conduct section */
+
+  /* finance section */
+  .finances {
+    background-color: #f0f0f0;
+    overflow: auto;
+    margin-top: -14%;
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 90%);
+    padding-bottom: 15%;
+}
+.financespara { 
+  padding-top: 20%;
+  margin-left: 8%;
+  width: 55%; 
+}
+.financesheading {
+  font-size: 16px; 
+  margin-bottom: 5%;
+}
+.financescontent {
+  font-size: 10px; 
+  line-height: 16px;
+}
+.financesimage { 
+  padding-top: 25%;
+  margin-right: 5%;
+  width: 160px;
+  height: auto;
+}
+  /* //finance section */
+
+  /* home section */
+  .home { 
+    clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%); 
+    padding-bottom: 10%;
+}
+.homeimage {
+  padding-top: 15%;
+  margin-left: 5%; 
+  width: 170px;
+  height: auto;
+}
+.homepara { 
+  width: 55%;
+  padding-top: 15%; 
+  margin-right: 5%;
+}
+.homeheading {
+  font-size: 16px; 
+  margin-bottom: 6%;
+}
+.homecontent {
+  font-size: 10px;  
+  line-height: 16px;
+}
+  /* // home section */
+
+  /* negotiate section */
+  .negotiate { 
+    margin-top: -2%;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    padding-bottom: 15%;
+}
+.negotiatepara { 
+  padding-top: 17%;
+  margin-left: 7%;
+  width: 56%; 
+}
+.negotiateheading {
+  font-size: 16px; 
+  margin-bottom: 8%;
+}
+.negotiatecontent {
+  font-size: 10px; 
+  line-height: 16px;
+}
+.negotiateimage { 
+  padding-top: 22%;
+  margin-right: 5%;
+  width: 170px;
+  height: auto;
+}
+  /* //negotiate section */
+
+  /* inspection section */
+  .inspection { 
+    clip-path: polygon(0 0, 100% 11%, 100% 85%, 0% 100%); 
+    padding-bottom: 10%;
+}
+.inspectionimage {
+  padding-top: 18%;
+  margin-left: 5%; 
+  width: 180px;
+  height: auto;
+}
+.inspectionpara { 
+  width: 54%;
+  padding-top: 15%; 
+  margin-right: 5%;
+}
+.inspectionheading {
+  font-size: 16px; 
+  margin-bottom: 5%;
+}
+.inspectioncontent {
+  font-size: 10px; 
+  line-height: 16px;
+}
+  /* //inspection section */
+
+  /* final section */
+  .final {  
+    margin-top: -2%;
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 90%);
+    padding-bottom: 15%;
+}
+.finalpara { 
+  padding-top: 17%;
+  margin-left: 7%;
+  width: 56%; 
+}
+.finalheading {
+  font-size: 16px; 
+  margin-bottom: 5%;
+}
+.finalcontent {
+  font-size: 10px; 
+  line-height: 16px;
+}
+.finalimage { 
+  padding-top: 20%;
+  margin-right: 3%;
+  width: 180px;
+  height: auto;
+}
+  /* //final section */
+
+  /* congratulate section */
+  .congratulate { 
+    clip-path: polygon(0 0, 100% 4%, 100% 85%, 0% 100%);
+    margin-top: -7%; 
+    padding-bottom: 25%;
+}
+.congratulateimage {
+  padding-top: 20%;
+  margin-left: 7%; 
+  width: 180px;
+  height: auto;
+}
+.congratulatepara { 
+  width: 50%;
+  padding-top: 10%; 
+  margin-right: 5%;
+}
+.congratulateheading {
+  width: 80%;
+  font-size: 16px; 
+  margin-bottom: 5%;   
+}
+.congratulatecontent {
+  font-size: 10px; 
+  line-height: 16px;
+}
+  /* //congratulate section */
+
+  /* have question section */
+  .findOut__heading { 
+    font-size: 35px;
+}
+.findOut__para { 
+  font-size: 12px; 
+}
+.findOut__select { 
+  font-size: 10px; 
+}
+.findOut__button { 
+    margin-top: 5%;
+    width: 100%;
+}
+  /* //have question section */
+
+  /* empty clip */
+  .emptyClip {
+    clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0 86%); 
+    height: 360px;
+    margin-top: -12%;
+}
+  /* //empty clip */
+  #buyerOurListHead {
+    font-size: 30px;
+}
+}
+/* // mobile view media queries ends here */
+
+
+

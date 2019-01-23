@@ -1,0 +1,1140 @@
+@font-face{
+    font-family:Roboto-Medium ;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf),url(../fonts/Roboto-Regular.woff);
+  }
+@font-face{
+    font-family:Comfortaa-Light ;
+    src: url(../fonts/Comfortaa-Light.ttf);
+}
+
+@font-face {
+    font-family: comfortaa-regular;
+    src: url(../fonts/Comfortaa-Regular.ttf),url(../fonts/Comfortaa-Regular.woff);
+  }
+  
+@font-face{
+    font-family:Comfortaa-Bold;
+    src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+.index__container,.buyer__container,.seller__container{
+    width: 90%;
+    margin: 0 auto; 
+}
+.listingHeader {
+    overflow: hidden;
+}
+/* header style starts here */
+.listingHeader__logoH1,.buyerHeader__logoH1,.sellerHeader__logoH1{
+    width: 250px;
+    height: 75px;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.listingHeader__logo,.buyerHeader__logo,.sellerHeader__logo {
+    background: url('../images/logo.png') no-repeat;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-indent: -99999em;
+}
+
+.listingHeader__list,.buyerHeader__list,.sellerHeader__list{
+    float:  right; 
+    font-family:Roboto-Medium ;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.listingHeader__listItem,.buyerHeader__listItem,.sellerHeader__listItem{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.listingHeader__listLink,.buyerHeader__listLink,.sellerHeader__listLink{
+    text-decoration: none;
+    color: #13403e; 
+    font-family:Roboto-regular;
+    font-size: 13px;
+    text-shadow: 0px 0px 0px #13403e;
+}
+
+.listingHeader__listItem:hover,.buyerHeader__listItem:hover,.sellerHeader__listItem:hover{ 
+    border-bottom: 2px solid #0cc2b9;
+    padding-bottom: 10px;
+}
+.listingHeader__listLink:hover,.buyerHeader__listLink:hover,.sellerHeader__listLink:hover {
+color: #00bfb2;
+}
+
+.workwithus{
+    font-family: Comfortaa-Bold;
+    text-transform: uppercase;
+    color: #0cc2b9;
+    border: 1px solid #000000; 
+    padding: 10px 20px;
+    border-radius: 3px;
+    letter-spacing: 3px;
+}
+
+.workwithus:hover{
+    border: 1px solid #0cc2b9; 
+    background-color: #0cc2b9;
+    color: #fff;
+}
+
+
+.listingHeader__toggle,.buyerHeader__toggle,.sellerHeader__toggle{
+    width: 100%;
+    padding: 10px 20px; 
+    text-align: right;
+    box-sizing: border-box; 
+    font-size: 30px;
+    display: none;
+}
+
+/* // header style ends here */ 
+
+.clear{
+    clear: both;
+}
+
+/* banner style starts here */
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    height: 667px;
+}
+.banner__content{
+    width: 35%;
+    font-family: Comfortaa-regular;
+    padding: 20% 0 0 8%;
+    line-height: 40px;
+    font-size: 28px;
+    float: left; 
+    text-shadow: 1px 1px 1px #13403e;
+}
+
+.banner__image{
+    width: 65%; 
+    position: absolute;
+    top: 5%;
+    left: 31%;
+}
+
+.banner__Img{
+    width: 98%;
+}
+
+.banner__whatWeDoLink{
+    color: #13403e;
+    border-bottom:2px solid #0cc2b9;
+    text-decoration: none;
+    font-size: 11px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 0px #13403e;
+    font-family: comfortaa-bold;
+} 
+
+.banner__whatWeDoLink:hover{
+    cursor: pointer;
+    color:#0cc2b9;
+}
+
+.banner__contentMarBot{
+    margin-bottom: 10%;
+}
+/* // banner style starts here */
+
+/* We are to help you section style starts here*/
+.weAreToHelpYou{
+    background-color: #00bfb2;
+    margin-top: 11.8%;
+    padding-bottom: 22%;
+    position: relative;
+    clip-path: polygon(0 0, 100% 12%, 100% 88%, 0% 100%);
+    margin-top: -110px;
+}
+
+.weAreToHelpYou__heading{
+    color: #fff;
+    font-size: 70px;
+    font-family: Comfortaa-Light;
+    padding: 10% 0 2% 8%;
+}
+
+.weAreToHelpYou__Info{
+    display: flex;
+    font-family: Comfortaa-Light;
+    margin: 3% 3%;
+    color: #fff;
+    padding: 0% 0% 0% 5%;
+}
+
+.weAreToHelpYou__EvaluateProperty,.weAreToHelpYou__FindProperty,.weAreToHelpYou__SaleProperty{
+    flex: 1;
+}
+
+.weAreToHelpYou__BgCol{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.weAreToHelpYou__Img{
+    height: 50px;
+    width: 50px;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.weAreToHelpYou__header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 18px;
+    font-family: Comfortaa-Bold;
+}
+
+.weAreToHelpYou__content{
+    margin-bottom: 10%;
+    font-size: 15px;
+    padding-right: 25%;
+    line-height: 20px;
+}
+
+.weAreToHelpYou__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #7eded7;
+    font-family: Comfortaa-Bold;
+
+}
+
+.weAreToHelpYou__link:hover{
+    color: #fff;
+}
+/* We are to help you section style ends here*/
+
+
+/* we believe section style starts here */
+.weBelieve{  
+    background-color: #fff;
+    position: absolute; 
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto; 
+    z-index: 2;
+    left: 5%;
+    margin-top: -17%;
+}
+
+.weBelieve__heading{
+    font-size: 65px;
+    padding: 7% 0% 0 3%;
+    font-family: Comfortaa-Light;
+    text-shadow: 0px 0px 1px #13403e;
+}
+
+.weBelieve__cont{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5% 0 5% 24%;
+    font-family: Comfortaa-regular;
+    text-shadow: 0px 0px 0px #13403e;
+}
+/* //we believe section style ends here */
+
+/* whatOurClientSay section style starts here */
+#width100{
+    width: 100%;
+}
+.whatOurClientSay{
+    background-color: #f0f0f0;
+    width: 100%;
+    padding-top: 27%;
+    padding-bottom: 15%; 
+    margin-top: -7.5%; 
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 88%);
+}
+
+.whatOurClientSay__heading{
+    font-size: 30px;
+    font-family: Comfortaa-Bold;
+    border-bottom: 2px solid #0cc2b9;
+    padding-bottom: 5px;
+    margin-left: 12%;
+    display: inline;
+}
+
+/* .whatOurClientSay__borBot{
+    border-bottom: 2px solid #0cc2b9;
+} */
+
+.whatOurClientSay__clientInfo{
+    display: flex;
+    margin-top: 10%;
+}
+
+.whatOurClientSay__clientInfo--client1{
+    flex: 1;
+    margin-right: 5%;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.whatOurClientSay__clientInfo--client1Pic{
+    position: absolute;
+    top: -8%;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.whatOurClientSay__clientInfo--client1Img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.whatOurClientSay__clientInfo--client1Name, .whatOurClientSay__clientInfo--client1NickName{
+    color: #0cc2b9; 
+    font-family:Roboto-Medium ; 
+    /* font-family: roboto-regular; */
+    margin-left: 32%;
+    /* float: right;   */
+}
+
+.whatOurClientSay__clientInfo--client1NickName{
+    letter-spacing: 5px;
+    color: #958e8e;
+}
+
+.whatOurClientSay__clientInfo--client1Name{
+    margin: 10% 0% 0% 32%;
+    padding :20px 0px 0px 0px ;
+    font-family:Roboto-Medium ;
+}
+.marTopft{
+    margin-top: 2%;
+}
+
+.whatOurClientSay__clientInfo--client1Opinion{
+    font-family: Comfortaa-Bold;
+    padding: 7% 10% 10% 10%;
+    line-height: 25px;
+}
+.whatOurClientSay__borBot{
+    margin-bottom: 55px;
+}
+
+/* //whatOurClientSay section style ends here */
+
+/* Our listing style starts here */
+.indexOurListings__heading,.buyerOurListings__heading{
+    margin-left: 12%;
+    font-size: 30px;
+    font-family: Comfortaa-Bold;
+    border-bottom: 2px solid #00bfb2;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 0px #ffffff;
+    display: inline;
+}
+
+.indexOurListings__ImgGallery,.buyerOurListings__ImgGallery{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.indexOurListings__ImgGalleryRow1,.buyerOurListings__ImgGalleryRow1{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.indexOurListings__ImgGalleryRow1Pic1,.buyerOurListings__ImgGalleryRow1Pic1{
+    margin: 15px;
+    float: left;
+    position: relative;
+}
+
+.indexOurListings__ImgGalleryRow1Img1,.buyerOurListings__ImgGalleryRow1Img1{
+    height: 290px;
+    width: auto;
+}
+
+.indexOurListings__ImgGalleryRow1Cont,.buyerOurListings__ImgGalleryRow1Cont{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    left: 8%; 
+    letter-spacing: 1px;
+}
+
+.indexOurListings__ImgGalleryRow1ContHead,.buyerOurListings__ImgGalleryRow1ContHead{ 
+    font-family:Roboto-Medium ;
+    word-spacing: 6px;
+    font-size: 15px;
+}
+
+.indexOurListings__ImgGalleryRow1ContPara,.buyerOurListings__ImgGalleryRow1ContPara{ 
+    font-family: comfortaa-regular;
+    font-size: 13px;
+    margin-top: 4%;
+}
+/* //Our listing style endss here */
+
+/* pagination style starts here */
+/* .listing__pagination,.buyer__pagination{
+    width: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 50px 0px 10px 0px;
+}
+.listingPagination__link,.buyerPagination__link{
+    float: left;
+    width: 6%;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px 0px;
+    color: #13403e;
+}
+.listingPagination__link:hover,.buyerPagination__link:hover, .buyerPagination__link:active{
+    border: 2px solid #25cac1;
+    border-radius: 50%;
+}
+.listing__pagination .active,.buyer__pagination .active{
+    border: 2px solid #25cac1;
+    border-radius: 50%;
+}
+.listingPagination__bgArrow,.buyerPagination__bgArrow{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-indent: -99999em;
+    padding-top: 10px;
+}
+.lt--bgArrow{
+    background: url(../images/pagination-left-arrow.png) no-repeat left;
+    background-size: 12px 20px;
+}
+.rt--bgArrow{
+    background: url(../images/pagination-right-arrow.png) no-repeat right;
+    background-size: 12px 20px;
+    padding-left: 20px;
+}
+.listingPagination__span,.buyerPagination__span{
+    float: left;
+    padding: 0px 5px;
+    font-size: 30px;
+} */
+
+
+#pagination{
+    padding-top: 5%;
+    width: 39%;
+    margin: 0 auto;
+}
+#pagination a, #pagination i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 37px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#pagination a {
+      font-size: 26px;
+    cursor: pointer;
+        color: #13403e;
+}
+#pagination i {
+    margin: 0 3px 0 3px;
+      font-size: 30px;
+}
+#pagination a.current {
+    border: 1px solid #25cac1;
+    background-color: #fff;
+    border-radius: 50%;
+}
+/* //pagination style ends here */
+
+
+/* // form section starts here */ 
+.indexForm,.buyerForm{
+    background-color: #13403e;
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+    padding: 8% 10% 10% 10%;
+}
+.indexForm__heading,.buyerForm__heading{
+    color: #fff;
+    font-size: 65px;
+    padding-bottom: 2%;
+    font-family: comfortaa-light;
+    padding-top: 10%;
+}
+.indexForm__subheading,.buyerForm__subheading,.sellerForm__subheading{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 5%;
+    font-family: Comfortaa-regular;
+    text-shadow: 0px 0px 0px #ffffff;
+}
+.indexForm__input,.buyerForm__input,.sellerForm__input{
+    outline: none;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #13403e;
+    width: 100%;
+    border-bottom: 2px solid #00bfb2;   
+    color: #fff;
+    padding-top: 4%;    
+    font-family: roboto-regular;
+    font-size: 12px;
+}
+.indexForm__input::placeholder,.buyerForm__input::placeholder,.sellerForm__input::placeholder {
+  color: #fff;
+  opacity: 1; 
+  font-family: roboto-regular;
+}
+.indexForm__dropDown,.buyerForm__dropDown,.sellerForm__dropDown{
+    background-color: #13403e;
+    outline: none;
+    color: #fff;
+    font-family: roboto-regular;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 13%; 
+}
+.indexSelect__bgArrow,.buyerSelect__bgArrow,.sellerSelect__bgArrow{
+    background: url('../images/select-down-arrow.png') no-repeat;
+    background-position: 120px 3px;
+    background-color: #13403e;
+}
+.indexForm__interested,.buyerForm__interested,.sellerForm__interested{
+    margin-right: 10px;
+}
+.indexForm__button,.buyerForm__button,.sellerForm__button{
+    background-color: #00bfb2;
+    width: 250px;
+    height: 40px;
+    margin-top: 5%;
+    color: #fff;
+        font-family: roboto-regular;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+}
+.indexForm__button:hover,.buyerForm__button:hover,.sellerForm__button:hover{
+    cursor: pointer;
+    background-color: #ffffff; 
+    color: #00bfb2;
+}
+.indexForm__errMsg,.buyerForm__errMsg,.sellerForm__errMsg{
+    font-family: Roboto-Medium ;
+    font-size: 16px;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.indexForm__sucessmsg,.buyerForm__sucessmsg,.sellerForm__sucessmsg{
+    color: green;
+     font-family: Roboto-Medium ;
+    font-size: 18px;
+     padding-top: 5px;
+    padding-bottom: 5px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0;
+}
+
+/* // form section ends here */ 
+
+/* media query for the screen 1200px */
+@media (max-width: 1200px) {
+    .listingHeader__logoH1, .buyerHeader__logoH1, .sellerHeader__logoH1 {
+        width: 220px;
+        height: 68px; 
+        margin: 25px 0 0 20px;
+    }
+    .listingHeader__logo, .buyerHeader__logo, .sellerHeader__logo {   
+        background-size: 98%;
+    }
+    .listingHeader__listItem, .buyerHeader__listItem, .sellerHeader__listItem { 
+        margin-right: 30px; 
+    }
+    .banner__content { 
+        font-size: 25px; 
+    }
+    .banner__whatWeDoLink { 
+        font-size: 10px; 
+    }
+    .banner__Img{
+        width: 95%;
+    }
+    .banner__image { 
+        top: 50px;
+        left: 350px;
+    }
+    .weAreToHelpYou {   
+        clip-path: polygon(0 0, 100% 12%, 100% 90%, 0% 100%);
+        margin-top: -170px;
+    }
+    .weAreToHelpYou__heading { 
+        font-size: 60px; 
+    }
+    .werbtmbdr2{
+        padding-bottom: 6%;
+    }
+    .weBelieve__heading {
+        font-size: 55px; 
+    }
+    .weBelieve__cont {
+        font-size: 15px; 
+    }
+    .whatOurClientSay { 
+        padding-top: 27%; 
+    }
+    .whatOurClientSay__heading {
+        font-size: 25px; 
+    }
+    .indexOurListings__heading, .buyerOurListings__heading { 
+        font-size: 25px; 
+    }
+    .indexOurListings__ImgGalleryRow1Img1, .buyerOurListings__ImgGalleryRow1Img1 {
+        height: 256px; 
+    }
+    .indexOurListings__ImgGalleryRow1ContHead, .buyerOurListings__ImgGalleryRow1ContHead { 
+        font-size: 14px;
+    }
+    .indexOurListings__ImgGalleryRow1ContPara, .buyerOurListings__ImgGalleryRow1ContPara { 
+        font-size: 12px;
+        margin-top: 3%;
+    }
+    #pagination { 
+        width: 45%; 
+    }
+    .indexForm__heading, .buyerForm__heading { 
+        font-size: 60px; 
+    }
+    .indexForm__subheading, .buyerForm__subheading, .sellerForm__subheading { 
+        font-size: 18px; 
+    }
+    .indexSelect__bgArrow, .buyerSelect__bgArrow, .sellerSelect__bgArrow { 
+        background-position: 108px 2px; 
+    }
+    .indexForm__dropDown, .buyerForm__dropDown, .sellerForm__dropDown { 
+        font-size: 12px; 
+    }
+}
+/* //media query for the screen 1200px */
+
+/* media query for the screen  992px */
+@media (max-width: 992px) {
+    .listingHeader__logoH1, .buyerHeader__logoH1, .sellerHeader__logoH1 {
+    margin: 21px 0 0 0px;
+    }
+    .listingHeader__listItem, .buyerHeader__listItem, .sellerHeader__listItem {
+    margin-right: 15px;
+    }
+    .banner__content {
+    width: 37%;}
+    .weAreToHelpYou {
+    margin-top: -257px;
+}
+.weAreToHelpYou__EvaluateProperty, .weAreToHelpYou__FindProperty, .weAreToHelpYou__SaleProperty {
+    padding-right: 10px;
+}
+.weAreToHelpYou__content {
+    font-size: 14px;
+    padding-right: 0%;
+}
+.werbtmbdr2 {
+    padding-bottom: 1%;
+}   
+.weBelieve__heading {
+    font-size: 45px;
+}
+.weBelieve__cont{
+    padding: 5% 0 5% 21%;
+}
+.indexOurListings__ImgGalleryRow1Img1, .buyerOurListings__ImgGalleryRow1Img1 {
+    height: 208px;
+}
+.indexOurListings__ImgGalleryRow1ContHead, .buyerOurListings__ImgGalleryRow1ContHead {
+    font-size: 13px;
+}
+#pagination {
+    width: 54%;
+}
+.indexForm__heading, .buyerForm__heading {
+    font-size: 50px;
+}
+.indexForm__subheading, .buyerForm__subheading, .sellerForm__subheading {
+    font-size: 17px;
+}
+.indexSelect__bgArrow, .buyerSelect__bgArrow, .sellerSelect__bgArrow {
+    background-position: 110px 2px;
+}
+.indexForm__dropDown, .buyerForm__dropDown, .sellerForm__dropDown {
+    font-size: 12px;
+    width: 16%;
+}
+
+
+
+
+}
+/* //media query for the screen 992px */
+
+/* tab view media queries starts here */
+@media (max-width: 768px) {
+    /*header section */
+    .listingHeader__toggle,.buyerHeader__toggle,.sellerHeader__toggle{
+        display: block;
+    }
+
+    .listingHeader__list,.buyerHeader__list,.sellerHeader__list{
+        width: 80%; 
+        display: none;
+        margin-top: -5%;
+        margin-right: 4%;
+    }
+
+    .listingHeader__listItem,.buyerHeader__listItem,.sellerHeader__listItem{
+        display: block;
+        text-align: center;
+        margin-top: 35px;
+        margin-right: 0px;
+    }
+
+    .listingHeader__logoH1,.buyerHeader__logoH1,.sellerHeader__logoH1{
+        width: 265px;
+        height: 80px; 
+    }
+
+    .listingHeader__logo,.buyerHeader__logo,.sellerHeader__logo { 
+        background-size: 220px; 
+        height: 95%; 
+    }
+
+    .listingHeader__menu,.buyerHeader__menu,.sellerHeader__menu{
+        margin-top: 3%;
+    }
+
+    .workBtn:hover{
+        border: none;
+    }
+
+    /*  //header section */
+
+    /* banner section */
+    .banner__content {
+        width: 35%; 
+        padding: 15% 0 0 10%;
+        line-height: 30px;
+        font-size: 18px; 
+    }
+    .banner__contentMarBot {
+        margin-bottom: 2%;
+    }
+    .banner__whatWeDoLink { 
+        font-size: 10px;
+        padding-bottom: 5px; 
+        letter-spacing: 1px;
+    }
+    .banner__image {
+        width: 50%;  
+        top: 40px;
+        left: 220px;
+    }
+    .banner__Img{
+        height: 330px;
+        width: auto;
+    }
+    /* //banner section */
+
+    /* we are to help section */
+    .weAreToHelpYou{
+        margin-top: -46%;
+        clip-path: polygon(0 0, 100% 11%, 100% 88%, 0% 100%);
+    }
+    .weAreToHelpYou__heading {
+        font-size: 35px;
+        padding: 13% 0 2% 2%;
+    }
+    .weAreToHelpYou__header { 
+        font-size: 15px;
+    }
+    .weAreToHelpYou__content { 
+        font-size: 12px; 
+    }
+    .werbtmbdr2{ 
+        padding-bottom: 37px;
+    }
+    .werbtmbdr1{
+        padding-bottom: 20px;
+    }
+    /* //we are to help section */
+
+    /* we believe */
+    .weBelieve__heading {
+        font-size: 40px; 
+    }
+    .weBelieve__cont {
+        font-size: 12px; 
+    }
+    /* //we believe */
+
+    /* what our client say */
+    .whatOurClientSay { 
+        margin-top: -10%; 
+        clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 88%);
+        padding-top: 42%;
+    }
+    .whatOurClientSay__heading {
+        font-size: 20px; 
+    }
+    .whatOurClientSay__clientInfo--client1Pic { 
+        top: -5%; 
+        height: 85px;
+        width: 85px; 
+    }
+    .whatOurClientSay__clientInfo--client1Img {
+        height: 85px;
+        width: 85px; 
+    }
+    .whatOurClientSay__clientInfo--client1Name, .whatOurClientSay__clientInfo--client1NickName {
+        margin-left: 35%; 
+    }
+    .whatOurClientSay__clientInfo--client1Opinion { 
+        padding: 10% 10% 10% 10%;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    /* //what our client say */
+
+
+    /* ourListings */
+     .ourListings{
+      margin-top: 3%;
+     } 
+     .ourListings__heading{
+     font-size:20px;
+    }
+     .ourListings__ImgGalleryRow1Img1{
+    height: 166px;
+     }
+     .ourListings__ImgGalleryRow1Cont {
+         word-spacing: 0px;
+     }
+     .ourListings__ImgGalleryRow1ContHead {
+        font-size: 11px;
+    }
+    .ourListings__ImgGalleryRow1ContPara {
+        font-size: 9px;
+    }
+
+    /* //ourListings */
+
+    /* pagination */
+    .listing__pagination, .buyer__pagination {
+        width: 65%; 
+    }
+    .listingPagination__link, .buyerPagination__link { 
+        padding: 7px 0px; 
+    }
+    .listingPagination__bgArrow, .buyerPagination__bgArrow { 
+        padding-top: 0px;
+    }
+    .rt--bgArrow { 
+        padding-left: 0px;
+    }
+    /* //pagination */
+
+    /* form section */
+    .indexForm, .buyerForm { 
+        margin-top: 3%;
+    }
+
+    .indexForm__heading, .buyerForm__heading { 
+        font-size: 40px; 
+        padding-top: 15%;
+    }
+    .indexForm__subheading, .buyerForm__subheading, .sellerForm__subheading { 
+        font-size: 15px; 
+    }
+    .indexForm__input, .buyerForm__input, .sellerForm__input { 
+        font-size: 12px;
+    }
+    .indexForm__errMsg, .buyerForm__errMsg, .sellerForm__errMsg { 
+        font-size: 14px; 
+    }
+    .indexForm__sucessmsg, .buyerForm__sucessmsg, .sellerForm__sucessmsg {
+        font-size: 16px; 
+    }
+    /* //form section */
+
+
+/* //tab view media queries ends here */
+
+
+/* mobile vie media query starts here */
+
+@media (max-width: 576px){
+    /*header section */
+    .listingHeader__toggle,.buyerHeader__toggle,.sellerHeader__toggle{
+        display: block;
+    }
+
+    .listingHeader__list,.buyerHeader__list,.sellerHeader__list{
+        width: 80%;
+        float: right;
+        display: none;
+        margin-top: -5%;
+        margin-right: 4%;
+        padding-bottom: 5%;
+    }
+
+    .listingHeader__listItem,.buyerHeader__listItem,.sellerHeader__listItem{
+        display: block;
+        text-align: center;
+        margin-top: 35px;
+        margin-right: 0px;
+    }
+    .listingHeader__listLink, .buyerHeader__listLink, .sellerHeader__listLink {
+        font-size: 10px;
+    }
+
+    .listingHeader__logoH1,.buyerHeader__logoH1,.sellerHeader__logoH1{
+        width: 220px;
+        height: 65px;
+        float: left;
+        margin: 20px 0 0 20px;
+    }
+
+    .listingHeader__logo,.buyerHeader__logo,.sellerHeader__logo {
+        background: url(../images/logo.png) no-repeat;
+        background-size: 200px;
+        float: left;
+        width: 95%;
+        height: 95%;
+        text-indent: -99999em;
+    }
+
+    .listingHeader__menu,.buyerHeader__menu,.sellerHeader__menu{
+        margin-top: 5%;
+    }
+
+    .workBtn:hover{
+        border: none;
+    }
+
+    /*  //header section */
+
+    /* banner section */
+    .banner { 
+        height: 280px;
+    }
+    .banner__Img{
+        height: 250px;
+        width: auto;
+    }
+    .banner__image {
+        width: 65%;
+        position: absolute;
+        top: 40px;
+        left: 200px;
+    }
+    .banner__content {
+        width: 35%; 
+        padding: 20% 0 0 10%;
+        line-height: 25px;
+        font-size: 13px; 
+    }
+    .banner__whatWeDoLink {
+        font-size: 8px;
+    }
+    /* // banner section */
+
+    /* we are here to help you section */
+    .weAreToHelpYou { 
+        margin-top: -7%;
+        padding-bottom: 30%; 
+        clip-path: polygon(0 0, 100% 6%, 100% 90%, 0% 100%); 
+    } 
+    .weAreToHelpYou__heading { 
+        font-size: 40px; 
+        padding: 15% 0 2% 2%;
+    }
+
+    #mobView{
+        display: block; 
+        margin: 3% 4%; 
+    }
+    .weAreToHelpYou__EvaluateProperty,.weAreToHelpYou__FindProperty,.weAreToHelpYou__SaleProperty{ 
+        margin-bottom: 10%;
+    }
+    .weAreToHelpYou__BgCol {
+        float: left;
+    }
+    .weAreToHelpYou__header { 
+        margin-bottom: 3%;
+        font-size: 16px;
+        margin-left: 30%;
+    }
+    .weAreToHelpYou__content {
+        margin-bottom: 5%;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+    .weAreToHelpYou__link { 
+        font-size: 10px; 
+        margin-left: 30%; 
+    }
+    /* we are here to help you section */
+
+    /* we believe section */
+    .weBelieve {
+        margin-top: -30%;
+    }
+    .weBelieve__heading {
+        font-size: 35px;
+    }
+    .weBelieve__cont {
+        font-size: 9px;
+        line-height: 15px;
+        padding-left: 27%;
+    }
+    /* //we believe section */
+
+    /* what out client say section */
+    .whatOurClientSay { 
+        padding-top: 30%;
+        padding-bottom: 20%;
+        margin-top: -16%; 
+        clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 88%);
+    }
+
+
+    #whatOurClientSay__mobView{
+        display: block; 
+    }
+
+    .whatOurClientSay__clientInfo--client1 { 
+        margin-bottom: 10%;
+    }
+
+    .whatOurClientSay__clientInfo--client1Pic { 
+        top: -8%; 
+        height: 90px;
+        width: 90px; 
+    }
+    .whatOurClientSay__clientInfo--client1Img {
+        height: 90px;
+        width: 90px; 
+    }
+    .whatOurClientSay__clientInfo--client1Name { 
+        padding-top: 4%;
+    }
+    .whatOurClientSay__clientInfo--client1Opinion { 
+        line-height: 23px;
+        font-size: 13px;
+    } 
+    /* what out client say section */
+
+    /* our listings starts here */
+    .indexOurListings__ImgGallery{
+        display: none;
+    }
+    
+    .ourListings__ImgGalleryRow1 { 
+        width: 85%;
+    }
+    .ourListings__ImgGalleryRow1Img1 {
+        height: 300px; 
+        width: 100%;
+    }
+    /* //our listings ends here */
+
+    /* pagination */
+    #pagination{
+        display:none;
+    }
+    /* .listing__pagination,.buyer__pagination { 
+        width: 81%;
+    }
+    .listingPagination__link, .buyerPagination__link { 
+        padding: 6px 0px; 
+    }
+    .listingPagination__bgArrow, .buyerPagination__bgArrow { 
+        padding-top: 0px;
+    }
+    .rt--bgArrow { 
+        padding-left: 0px;
+    } */
+    #pagination {
+        width: 58%;
+    }
+    /* //pagination */
+
+    /* form section */
+    .indexForm, .buyerForm { 
+        margin-top: 5%;
+    }
+
+    .indexForm__heading, .buyerForm__heading { 
+        font-size: 30px; 
+        padding-top: 15%;
+    }
+    .indexForm__subheading, .buyerForm__subheading, .sellerForm__subheading { 
+        font-size: 10px; 
+    }
+    .indexForm__input, .buyerForm__input, .sellerForm__input { 
+        font-size: 10px;
+    }
+    .indexForm__button, .buyerForm__button, .sellerForm__button {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .indexSelect__bgArrow, .buyerSelect__bgArrow, .sellerSelect__bgArrow {
+        background-size: 15px;
+        background-position: 100px 2px;
+        width: 25%;
+        font-size: 9px;
+    }
+    .indexForm__errMsg, .buyerForm__errMsg, .sellerForm__errMsg { 
+        font-size: 12px; 
+    }
+    .indexForm__sucessmsg, .buyerForm__sucessmsg, .sellerForm__sucessmsg { 
+        font-size: 14px; 
+    }
+    /* //form section */
+
+
+}
+
+/* //mobile vie media query ends here */
